@@ -22,8 +22,8 @@ namespace Domain.Entities
         public string? ThirdNameEnglish { get; private set; }
         public string FamilyNameEnglish { get; private set; } = string.Empty;
         public DateTime DateOfBirth { get; private set; }
-        public int PhoneNumber { get; private set; }
-        public string? Email { get; private set; }
+        public string PhoneNumber { get; private set; }
+        public string PhoneCountyCode { get; set; }
         public Identifier Identifier { get; private set; }
     }
 }
